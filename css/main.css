@@ -12,8 +12,8 @@ body, html {
 	background: #111;
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	height: 100%;
+	width: 100vh;
+	height: 100vw;
 }
 /*********************************************
  * EXPERIMENT STYLES
@@ -150,8 +150,6 @@ body, html {
 #score {
 	margin: 20px 0 15px;
 	display: none;
-	min-width: 100vw;
-	min-height: 100vh;
 }
 	
 	#score h3 {

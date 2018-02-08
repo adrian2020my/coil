@@ -150,6 +150,8 @@ body, html {
 #score {
 	margin: 20px 0 15px;
 	display: none;
+	min-width: 100vw;
+	min-height: 100vh;
 }
 	
 	#score h3 {

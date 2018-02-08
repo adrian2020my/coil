@@ -12,8 +12,6 @@ body, html {
 	background: #111;
 	margin: 0;
 	padding: 0;
-	min-width: 100vw;
-	min-height: 100vh;
 }
 /*********************************************
  * EXPERIMENT STYLES
@@ -21,7 +19,7 @@ body, html {
 
 #game {
 	background: url('../images/background.jpg');
-	position: absolute;
+	position: fixed;
 	display: none;
 	border: 1px solid #222222;
 	border-radius: 2px;
@@ -29,7 +27,8 @@ body, html {
 	height: 100vh;
 	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	font-size: 9px;
-	
+	min-width: 100vw;
+	min-height: 100vh;
 	color: #f4f4f4;
 	text-align: center;
 

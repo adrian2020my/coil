@@ -188,7 +188,7 @@ var Coil = (function(){
 			window.addEventListener('resize', onWindowResizeHandler, false);
 			
 			// Force an initial layout
-			// onWindowResizeHandler();
+			onWindowResizeHandler();
 			
 			createSprites();
 			createEffects();
@@ -247,7 +247,7 @@ var Coil = (function(){
 				canvas3d.style.display = 'block';
 				
 				// Forces the 3D canvas to resize
-				// onWindowResizeHandler();
+				onWindowResizeHandler();
 			}
 			else {
 				effectsEnabled = false;

@@ -188,7 +188,7 @@ var Coil = (function(){
 			window.addEventListener('resize', onWindowResizeHandler, false);
 			
 			// Force an initial layout
-			// onWindowResizeHandler();
+			onWindowResizeHandler();
 			
 			createSprites();
 			createEffects();

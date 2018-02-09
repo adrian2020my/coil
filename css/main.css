@@ -150,17 +150,17 @@ body, html {
 	}
 
 #score {
-	margin: 10px 0 5px;
+	margin: 100px 0 25px;
 	display: none;
 }
 	
 	#score h3 {
-		font-size: 12px;
+		font-size: 32px;
 	}
 	
 	#score p {
 		color: rgba(100,240,255,0.9);
-		font-size: 514px;
+		font-size: 74px;
 	}
 
 #start-button {

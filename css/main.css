@@ -16,20 +16,6 @@ body, html {
 /*********************************************
  * EXPERIMENT STYLES
  *********************************************/
-#screen canvas {
-	margin: auto;
-	/* Hide the gap for font descenders. */
-	display: block;
-	min-height: 80vh;
-	min-width: 80vw;
-	/* disable scaling interpolation */
-	image-rendering: optimizeSpeed;
-	image-rendering: -moz-crisp-edges;
-	image-rendering: -o-crisp-edges;
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: optimize-contrast;
-	-ms-interpolation-mode: nearest-neighbor;
-}
 
 #game {
 	background: url('../images/background.jpg');
@@ -41,6 +27,12 @@ body, html {
 	font-size: 9px;
 	min-width: 100vw;
 	min-height: 100vh;
+	height: 200px;
+  	width: 400px;
+  	left: 50%;
+  	top: 50%;
+  	margin-top: -50vh;
+  	margin-left: -50vw;
 	color: #f4f4f4;
 	text-align: center;
 

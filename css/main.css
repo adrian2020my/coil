@@ -22,12 +22,6 @@ body, html {
 	display: block;
 	min-height: 80vh;
 	min-width: 80vw;
-	height: 200px;
-	width: 400px;
-	left: 50%;
-	top: 50%;
-	margin-top: -40vh;
-	margin-left: -40vw;
 	/* disable scaling interpolation */
 	image-rendering: optimizeSpeed;
 	image-rendering: -moz-crisp-edges;

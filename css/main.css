@@ -17,17 +17,27 @@ body, html {
  * EXPERIMENT STYLES
  *********************************************/
 
+#game {
+	background: url('../images/background.jpg');
+	position: absolute;
+	display: none;
+	border: 1px solid #222222;
+	border-radius: 2px;
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+	font-size: 9px;  	
+	color: #f4f4f4;
+	text-align: center;
+
+	-webkit-box-shadow: 0 0 10px #000;
+	   -moz-box-shadow: 0 0 10px #000;
+	     -o-box-shadow: 0 0 10px #000;
+	        box-shadow: 0 0 10px #000;
+}
 
 #world {
 	position: absolute;
-	min-width: 80vw;
-	min-height: 80vh;
-	height: 200px;
-  	width: 400px;
-  	left: 50%;
-  	top: 50%;
-  	margin-top: -40vh;
-  	margin-left: -40vw;
+	top: 0;
+	left: 0;
 }
 
 #effects {

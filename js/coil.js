@@ -389,9 +389,9 @@ var Coil = (function(){
 		
 		playing = false;
 		menu.fadeIn( MENU_FADE_IN_DURATION );
-		if (Math.floor(score) > 1000) {
-			window.open("win.html", "_self");
-		} 
+		// if (Math.floor(score) > 1000) {
+		// 	window.open("win.html", "_self");
+		// } 
 		window.webkit.messageHandlers.score.postMessage(Math.floor(score));
 
 		

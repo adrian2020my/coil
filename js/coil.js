@@ -390,6 +390,12 @@ var Coil = (function(){
 		playing = false;
 		menu.fadeIn( MENU_FADE_IN_DURATION );
 		window.webkit.messageHandlers.score.postMessage(Math.floor(score));
+		// Add transition here ?
+		// call api score
+		if (score > 1) {
+			window.open("win.html", "_self");
+		} 
+		
 	}
 	
 	function reset() {
